@@ -13,7 +13,7 @@ Filtering of non single copy regions in the dataset is then performed on the con
 ![Alt text](./img/acceleration.png)
 ## Important Files in ./accelerate/scripts
 * check_regions.py  - estimates log odds scores by reading a BED file from stdin
-* compute_subs.py - generated MAFs for each region in a BED file and then computes substitution rates between humans and primate ancestors. 
+* compute_subs.py - generates MAFs for each region in a BED file and then computes substitution rates between humans and primate ancestors. 
 * hist_substitution_rates.py - creates a histogram of substitution rates
 * multi_get_single_copy.py - calculates single copy percentages for regions in a BED file provided that a single copy regions BED file is also provided. These single copy region BED files can be obtained through running the program `halSingleCopyExtract` from the HAL toolkit.
 * how_well_did_we_do.py - checks coverage in both genomic sequences and coding sequences
