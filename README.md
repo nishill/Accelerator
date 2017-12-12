@@ -18,4 +18,4 @@ Filtering of non single copy regions in the dataset is then performed on the con
 * multi_get_single_copy.py - calculates single copy percentages for regions in a BED file provided that a single copy regions BED file is also provided. These single copy region BED files can be obtained through running the program `halSingleCopyExtract` from the HAL toolkit.
 * how_well_did_we_do.py - checks coverage in both genomic sequences and coding sequences
 * find_accelerated_regions.py - computes log odds ratio scores and performs phylogenetic model rescaling from a conserved BED file. This can be used as a more strict alternative to check_regions.py
-* plot_coverage_roc.py - plots coverage in either genomic sequences or coding sequences 
+* plot_coverage_roc.py - plots target coverage versus resulting coverage from phastCons output from  either genomic sequences or coding sequences 
