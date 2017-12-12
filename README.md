@@ -11,3 +11,4 @@
 Filtering of non single copy regions in the dataset is then performed on the conserved regions. To determine the strength of the candidate accelerated data the following pipeline is then performed to estimate log odds ratio scores.
 ![Alt text](./img/acceleration.png)
 ## Important Files
+* check_regions.py  - estimates log odds scores by reading a BED file from stdin
