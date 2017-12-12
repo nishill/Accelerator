@@ -3,6 +3,9 @@
 
 ## Dependencies:
 > * [HAL](https://github.com/ComparativeGenomicsToolkit/hal) 
-> * [Phylogenetic Analysis with Space/Time Models](http://compgen.cshl.edu/phast/) *
+> * [Phylogenetic Analysis with Space/Time Models](http://compgen.cshl.edu/phast/) 
+
+## The pipeline
+> This pipeline begins with a HAL file generated from a whole genome [cactus](https://github.com/ComparativeGenomicsToolkit/cactus) alignment. It then uses programs from the HAL and PHAST toolkits to infer evolutionary accelerated regions. 
 
 ## Important Files
