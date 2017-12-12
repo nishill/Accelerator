@@ -10,5 +10,8 @@
 ![Alt text](./img/conserved_pipeline.png)
 Filtering of non single copy regions in the dataset is then performed on the conserved regions. To determine the strength of the candidate accelerated data the following pipeline is then performed to estimate log odds ratio scores.
 ![Alt text](./img/acceleration.png)
-## Important Files
+## Important Files in ./accelerate/scripts
 * check_regions.py  - estimates log odds scores by reading a BED file from stdin
+* compute_subs.py - generated MAFs for each region in a BED file and then computes substitution rates between humans and primate ancestors. 
+* hist_substitution_rates.py - creates a histogram of substitution rates
+* multi_get_single_copy.py - calculates single copy percentages for regions in a BED file provided that a single copy regions BED file is also provided
