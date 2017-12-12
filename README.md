@@ -1,5 +1,5 @@
 # Accelerator
-> This repository provides a pipeline for inferring human evolutionary accelerated regions. Note, it's primary purpose is to demonstrate and document the code used to identify these regions. The pipeline run by `python run_accelerator.py` has not yet been thouroughly tested. That Python code is intended for an individual who would like to further build upon and test a fully automated version of this pipeline. 
+> This repository provides a pipeline for inferring human evolutionary accelerated regions. Note, its primary purpose is to demonstrate and document the code used to identify these regions. The pipeline run by `python run_accelerator.py` has not yet been thouroughly tested. That Python code is intended for an individual who would like to further build upon and test a fully automated version of this pipeline. 
 
 ## Dependencies:
 > * [HAL](https://github.com/ComparativeGenomicsToolkit/hal) 
